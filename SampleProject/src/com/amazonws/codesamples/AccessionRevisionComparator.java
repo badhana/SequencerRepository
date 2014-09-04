@@ -12,14 +12,15 @@ public class AccessionRevisionComparator implements Comparator<AccessionRevision
 		return i;
 	}
 
-/*	public int compareTo(Person p1, Person p2)
+	public int compareTo(AccessionRevision p1, AccessionRevision p2)
 	{
-	    int i = p1.firstName.compareTo(p2.firstName);
+	    int i = p1.getAccessionNumber().compareTo(p2.getAccessionNumber());
 	    if (i != 0) return i;
+		return i;
 
-	    i = p2.lastName.compareTo(p2.lastName);
-	    if (i != 0) return i;
+	   /* i = p2.lastName.compareTo(p2.lastName);
+	    if (i != 0) return i;*/
 
-	    return Integer.valueOf(p1.age).compareTo(Integer.valueOf(p2.age);
-	}*/
+	    //return Integer.valueOf(p1.age).compareTo(Integer.valueOf(p2.age);
+	}
 }
