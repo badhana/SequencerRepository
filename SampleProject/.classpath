@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="resources"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="lib/lib/aspectj-1.6/aspectjrt.jar"/>
 	<classpathentry kind="lib" path="lib/lib/aspectj-1.6/aspectjweaver.jar"/>
@@ -55,5 +56,7 @@
 	<classpathentry kind="lib" path="C:/AWSSDK/aws-java-sdk-1.8.9.1/lib/aws-java-sdk-1.8.9.1-javadoc.jar"/>
 	<classpathentry kind="lib" path="C:/AWSSDK/aws-java-sdk-1.8.9.1/lib/aws-java-sdk-1.8.9.1-sources.jar"/>
 	<classpathentry kind="lib" path="C:/AWSSDK/aws-java-sdk-1.8.9.1/lib/aws-java-sdk-flow-build-tools-1.8.9.1.jar"/>
+	<classpathentry kind="lib" path="lib/xsd-gen-0.2.0-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="lib/json-simple-1.1.1.jar" sourcepath="C:/Users/adhanab/Downloads/json_simple-1.1-all/json_simple-1.1-all"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

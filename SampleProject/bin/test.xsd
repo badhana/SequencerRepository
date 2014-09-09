@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://xml.dowjones.net/distdoc/v8" xmlns:v8="http://xml.dowjones.net/distdoc/v8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xs:import namespace="http://www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd"/>
+  <xs:element name="DistList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:DistDoc"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DistDoc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Control"/>
+        <xs:element ref="v8:PrivateData"/>
+        <xs:element ref="v8:MetadataPT"/>
+        <xs:element ref="v8:IndexDoc"/>
+        <xs:element ref="v8:ArchiveDoc"/>
+        <xs:element ref="v8:InvertText"/>
+        <xs:element ref="v8:AdocTOC"/>
+      </xs:sequence>
+      <xs:attribute name="action" use="required" type="xs:NCName"/>
+      <xs:attribute name="an" use="required" type="xs:NCName"/>
+      <xs:attribute name="dist" use="required" type="xs:NCName"/>
+      <xs:attribute name="distdocver" use="required" type="xs:decimal"/>
+      <xs:attribute name="doctype" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Control">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Stamp"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Stamp">
+    <xs:complexType>
+      <xs:attribute name="date" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="time" use="required" type="xs:NMTOKEN"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+      <xs:attribute name="value" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PrivateData">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="MetadataPT">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Codes"/>
+        <xs:element ref="v8:Properties"/>
+        <xs:element ref="v8:Inventory"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Codes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:CodeSet"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodeSet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Code"/>
+      </xs:sequence>
+      <xs:attribute name="codeCat" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Code">
+    <xs:complexType>
+      <xs:sequence minOccurs="0">
+        <xs:element ref="v8:CodeD"/>
+        <xs:element ref="v8:CodeInstances"/>
+      </xs:sequence>
+      <xs:attribute name="rr" type="xs:NCName"/>
+      <xs:attribute name="rs" type="xs:integer"/>
+      <xs:attribute name="subCat" type="xs:NCName"/>
+      <xs:attribute name="value" use="required" type="xs:anyURI"/>
+      <xs:attribute name="why" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodeD">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodeInstances">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:CodeI"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodeI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:CodeA"/>
+      </xs:sequence>
+      <xs:attribute name="action" use="required" type="xs:NCName"/>
+      <xs:attribute name="org" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CodeA">
+    <xs:complexType>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="value" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:PropertySet"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Inventory">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Entity"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Entity">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Instances"/>
+        <xs:element ref="v8:Intrinsic"/>
+      </xs:sequence>
+      <xs:attribute name="cat" use="required" type="xs:NCName"/>
+      <xs:attribute name="itemID" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Instances">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Instance"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Intrinsic">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:PropertySet"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="IndexDoc" type="v8:Article"/>
+  <xs:element name="ArchiveDoc">
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="v8:Article">
+          <xs:attribute ref="xsi:type" use="required"/>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InvertText">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Dict"/>
+        <xs:element ref="v8:Fields"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Dict" type="xs:string"/>
+  <xs:element name="Fields" type="xs:string"/>
+  <xs:element name="AdocTOC">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Item"/>
+      </xs:sequence>
+      <xs:attribute name="adoctype" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Item">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:anyURI"/>
+      <xs:attribute name="size" use="required" type="xs:integer"/>
+      <xs:attribute name="type" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PropertySet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Property"/>
+      </xs:sequence>
+      <xs:attribute name="group" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Property">
+    <xs:complexType>
+      <xs:choice minOccurs="0">
+        <xs:element ref="v8:FeatureList"/>
+        <xs:element ref="v8:Snippet"/>
+      </xs:choice>
+      <xs:attribute name="name" use="required" type="xs:NCName"/>
+      <xs:attribute name="value"/>
+      <xs:attribute ref="xsi:type" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="FeatureList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Feature"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Feature">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Name"/>
+        <xs:element ref="v8:Instance"/>
+        <xs:element ref="v8:Type"/>
+        <xs:element ref="v8:Weight"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="Type" type="xs:NCName"/>
+  <xs:element name="Weight" type="xs:decimal"/>
+  <xs:element name="Snippet">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Para"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Instance">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="v8:PropertySet"/>
+      </xs:sequence>
+      <xs:attribute name="instID" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Article">
+    <xs:sequence>
+      <xs:element ref="v8:Article"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Article">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:HandL"/>
+        <xs:element ref="v8:TailParas"/>
+        <xs:element ref="v8:Byline"/>
+        <xs:element ref="v8:Credit"/>
+        <xs:element ref="v8:Contact"/>
+        <xs:element ref="v8:Notes"/>
+        <xs:element ref="v8:Art"/>
+        <xs:element minOccurs="0" ref="v8:Copyright"/>
+      </xs:sequence>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+      <xs:attribute name="lang" use="required" type="xs:NCName"/>
+      <xs:attribute name="markup" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="HandL">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Title"/>
+        <xs:element ref="v8:LeadPara"/>
+      </xs:sequence>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Title">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Headline"/>
+      </xs:sequence>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Headline">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="v8:Para"/>
+      </xs:sequence>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LeadPara">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Para"/>
+      </xs:sequence>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TailParas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="v8:Para"/>
+      </xs:sequence>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Byline">
+    <xs:complexType>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Credit">
+    <xs:complexType>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Contact">
+    <xs:complexType>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Notes">
+    <xs:complexType>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Art">
+    <xs:complexType>
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Copyright">
+    <xs:complexType mixed="true">
+      <xs:attribute name="fid" use="required" type="xs:NCName"/>
+      <xs:attribute name="index" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Para">
+    <xs:complexType mixed="true">
+      <xs:attribute name="lang" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

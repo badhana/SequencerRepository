@@ -4,11 +4,15 @@ import java.io.Serializable;
 
 import org.apache.commons.lang3.builder.CompareToBuilder;
 
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBAttribute;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+
 /**
  * 
- * @author adhanab
  *
  */
+@DynamoDBTable(tableName="AccessionRevision")
 public class AccessionRevision implements Comparable<AccessionRevision>, Serializable{
 
 	/**
@@ -19,10 +23,12 @@ public class AccessionRevision implements Comparable<AccessionRevision>, Seriali
 	private int revisionNumber;
 	private int enrichmentLevel;
 	private int actionCode;
+	private long updateDateTime; 
 	
 	/**
 	 * @return the accessionNumber
 	 */
+	@DynamoDBHashKey(attributeName = "AccessionNumber")
 	public String getAccessionNumber() {
 		return accessionNumber;
 	}
@@ -35,6 +41,7 @@ public class AccessionRevision implements Comparable<AccessionRevision>, Seriali
 	/**
 	 * @return the revisionNumber
 	 */
+	@DynamoDBAttribute(attributeName="RevisionNumber")  
 	public int getRevisionNumber() {
 		return revisionNumber;
 	}
@@ -47,6 +54,7 @@ public class AccessionRevision implements Comparable<AccessionRevision>, Seriali
 	/**
 	 * @return the enrichmentLevel
 	 */
+	@DynamoDBAttribute(attributeName="EnrichmentLevel")  
 	public int getEnrichmentLevel() {
 		return enrichmentLevel;
 	}
@@ -60,6 +68,7 @@ public class AccessionRevision implements Comparable<AccessionRevision>, Seriali
 	/**
 	 * @return the actionCode
 	 */
+	@DynamoDBAttribute(attributeName="ActionCode")  
 	public int getActionCode() {
 		return actionCode;
 	}
@@ -70,19 +79,33 @@ public class AccessionRevision implements Comparable<AccessionRevision>, Seriali
 		this.actionCode = actionCode;
 	}
 	
+	/**
+	 * @return the updateDateTime
+	 */
+	@DynamoDBAttribute(attributeName="UpdateDateTime")  
+	public long getUpdateDateTime() {
+		return updateDateTime;
+	}
+	/**
+	 * @param updateDateTime the updateDateTime to set
+	 */
+	public void setUpdateDateTime(long updateDateTime) {
+		this.updateDateTime = updateDateTime;
+	}
+	
 	@Override
 	public int compareTo(AccessionRevision accessionRevision2) {
 		return new CompareToBuilder().append(this.accessionNumber, accessionRevision2.accessionNumber).append(this.revisionNumber, accessionRevision2.revisionNumber).append(this.enrichmentLevel, accessionRevision2.enrichmentLevel).toComparison();  
 	}
-	
 	/* (non-Javadoc)
 	 * @see java.lang.Object#toString()
 	 */
 	@Override
 	public String toString() {
-		return "AccessionRevision [accessionNumber=" + accessionNumber
-				+ ", revisionNumber=" + revisionNumber + ", enrichmentLevel="
-				+ enrichmentLevel + ", actionCode=" + actionCode + "]";
+		return "AccessionRevision [accessionNumber="
+				+ accessionNumber + ", revisionNumber=" + revisionNumber
+				+ ", enrichmentLevel=" + enrichmentLevel + ", actionCode="
+				+ actionCode + ", updateDateTime=" + updateDateTime + "]";
 	}
 	
 }

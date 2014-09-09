@@ -1,0 +1,364 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DistList xmlns="http://xml.dowjones.net/distdoc/v8" xmlns:pd="PrivateData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<DistDoc doctype="article"  distdocver="08.3"  an="paprin0020010816dw9900omx" action="rep" dist="dist_id">
+<Control><Stamp date="2014-09-05" type="Normaliser" value="Normaliser  value" time="07:17:17"></Stamp></Control>
+<PrivateData></PrivateData>
+<MetadataPT><Codes><CodeSet codeCat="in"><Code why="about" value="i0100138"><CodeD lang="en">Cotton/Silk Farming</CodeD><CodeInstances><CodeI action="add" org="categoriser"><CodeA name="db" value="pcat-in-en-00001985-20140904-181559"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="2"></CodeA></CodeI></CodeInstances></Code><Code why="lineage" value="i0"><CodeD lang="en">Agriculture</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="in:i0100138"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="0"></CodeA></CodeI></CodeInstances></Code><Code why="lineage" value="i01001"><CodeD lang="en">Farming</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="in:i0100138"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="1"></CodeA></CodeI></CodeInstances></Code></CodeSet><CodeSet codeCat="re"><Code subCat="sp" why="about" value="kash"><CodeD lang="en">Kashmir</CodeD><CodeInstances><CodeI action="add" org="categoriser"><CodeA name="db" value="pcat-re-en-00001979-20140904-185225"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="2"></CodeA><CodeA name="nodelevel" value="3"></CodeA><CodeA name="nodelevel" value="4"></CodeA></CodeI></CodeInstances></Code><Code subCat="cntry" why="about" value="india"><CodeD lang="en">India</CodeD><CodeInstances><CodeI action="add" org="rbc"><CodeA name="rule" value="621580"></CodeA><CodeA name="db" value="prbc---00013432-20140905-013233"></CodeA></CodeI><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="1"></CodeA><CodeA name="nodelevel" value="2"></CodeA><CodeA name="nodelevel" value="3"></CodeA></CodeI></CodeInstances></Code><Code subCat="snr" why="lineage" value="asiaz"><CodeD lang="en">Asia</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="0"></CodeA></CodeI></CodeInstances></Code><Code subCat="eco" why="lineage" value="bric"><CodeD lang="en">BRIC Countries</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="1"></CodeA></CodeI></CodeInstances></Code><Code subCat="eco" why="lineage" value="devgcoz"><CodeD lang="en">Emerging Market Countries</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="0"></CodeA></CodeI></CodeInstances></Code><Code subCat="eco" why="lineage" value="dvpcoz"><CodeD lang="en">Developing Economies</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="0"></CodeA></CodeI></CodeInstances></Code><Code subCat="sc" why="lineage" value="indsubz"><CodeD lang="en">Indian Subcontinent</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="2"></CodeA></CodeI></CodeInstances></Code><Code subCat="sc" why="lineage" value="sasiaz"><CodeD lang="en">Southern Asia</CodeD><CodeInstances><CodeI action="add" org="expansion"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="root" value="re:kash"></CodeA><CodeA name="root" value="re:india"></CodeA></CodeI><CodeI action="add" org="validation"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="status" value="active"></CodeA></CodeI><CodeI action="add" org="hierarchy"><CodeA name="db" value="pedv---00004211-20140904-233250"></CodeA><CodeA name="nodelevel" value="1"></CodeA></CodeI></CodeInstances></Code></CodeSet><CodeSet codeCat="tpc"><Code subCat="din" value="Agriculture/Forestry "></Code><Code subCat="din" value="Agriculture "></Code><Code subCat="din" value="Silk Farming "></Code><Code subCat="dns" value="Output/Production "></Code><Code subCat="dns" value="Corporate/Industrial News "></Code><Code subCat="dre" value="Asian Countries "></Code><Code subCat="dre" value="Emerging Market Countries "></Code><Code subCat="dre" value="Countries of the Indian Subcontinent "></Code><Code subCat="dre" value="Pakistan "></Code><Code subCat="dre" value="Western Asian Countries "></Code><Code subCat="rbbcm" value="HEADCNTY:PAKISTAN "></Code><Code subCat="rbbcm" value="BIPIND "></Code><Code subCat="rbbcm" value="TOTTED "></Code></CodeSet><CodeSet codeCat="rst"><Code subCat="rstfsp" value="fspNorm0200"></Code>
+<Code subCat="rstsc" value="PAPRIN"></Code>
+<Code subCat="rstfsp" value="fspFileId805801691"></Code>
+<Code subCat="rstfsp" value="FSPMUAUTO"></Code>
+<Code subCat="rstlva" value="FUT"></Code>
+<Code subCat="rstreg" value="ASIA"></Code>
+<Code subCat="rsttyg" value="CLNTALL"></Code>
+<Code subCat="rstlng" value="EN"></Code>
+<Code subCat="rstreg" value="PAKIS"></Code>
+<Code subCat="rsttyg" value="TGPW"></Code>
+<Code subCat="rsttyg" value="TNWR"></Code>
+<Code subCat="rsttyg" value="TSCH"></Code>
+<Code subCat="rsttyg" value="TTRK"></Code>
+<Code subCat="rsttyg" value="TWIR"></Code>
+<Code subCat="rsttyg" value="TWWW"></Code>
+<Code subCat="rsttyg" value="TYAS"></Code>
+<Code subCat="rsttyg" value="TYLB"></Code>
+<Code subCat="rstreg" value="WASIAZ"></Code>
+<Code subCat="rstsf" value="PAPRIN"></Code>
+<Code subCat="rstfsp" value="FSPREINDEXDATE20120511"></Code>
+<Code subCat="rstfsp" value="FSPREINDEXV0200"></Code>
+<Code subCat="rstfsp" value="FSP1XML219"></Code>
+<Code subCat="rstfsp" value="FSP1XMLB"></Code>
+<Code subCat="rstfsp" value="FSPREINDEX"></Code>
+<Code subCat="rstfsp" value="FSPREINDEXV0100"></Code>
+<Code subCat="rstfsp" value="FSP2ACDSPKPINVOKED"></Code>
+<Code subCat="rstfsp" value="FSP2ACDSPKPAPPLIED"></Code>
+<Code subCat="rstfsp" value="FSP2ACDSPKWINVOKED"></Code>
+<Code subCat="rstfsp" value="FSP2ACDSPKWAPPLIED"></Code>
+<Code subCat="rstfsp" value="FSPRBC621580"></Code>
+<Code subCat="rstfsp" value="FSPMUAUTO"></Code>
+<Code subCat="rstfsp" value="FSP2NOCO"></Code><Code subCat="rstfsp" value="FSP2NOCOOC"></Code><Code subCat="rstfsp" value="FSP2YESIN"></Code><Code subCat="rstfsp" value="FSP2NONS"></Code><Code subCat="rstfsp" value="FSP2YESRE"></Code><Code subCat="rstfsp" value="FSP2NOPEOC"></Code><Code subCat="rstfsp" value="FSPRBC"></Code><Code subCat="rstfsp" value="FSPCATEGORIZER"></Code><Code subCat="rstfsp" value="fspfmdt2014090507144904"></Code><Code subCat="rstfsp" value="fspfmddv083"></Code></CodeSet>
+<CodeSet codeCat="fpco"><Code rs="11" rr="verylow" why="relevance" value="15068984"><CodeD lang="en">Sericulture Development Department</CodeD><CodeInstances><CodeI action="add" org="occurrenceCode"><CodeA name="db" value="FootprintMatcher DB 1.1.7"></CodeA></CodeI></CodeInstances></Code><Code rs="10" rr="verylow" subCat="com" why="relevance" value="1585088"><CodeD lang="en">Central Silk Board</CodeD><CodeInstances><CodeI action="add" org="occurrenceCode"><CodeA name="db" value="FootprintMatcher DB 1.1.7"></CodeA></CodeI></CodeInstances></Code><Code rs="1" rr="verylow" why="relevance" value="21493333"><CodeD lang="en">Department on Government</CodeD><CodeInstances><CodeI action="add" org="occurrenceCode"><CodeA name="db" value="FootprintMatcher DB 1.1.7"></CodeA></CodeI></CodeInstances></Code></CodeSet><CodeSet codeCat="fppe"><Code rs="50" rr="low" why="relevance" value="21324346"><CodeD lang="en">Bakshi Nagar</CodeD><CodeInstances><CodeI action="add" org="occurrenceCode"><CodeA name="db" value="FootprintMatcher DB 1.1.7"></CodeA></CodeI></CodeInstances></Code></CodeSet></Codes><Properties><PropertySet group="docdata"><Property xsi:type="DatePropertyType" name="pubdate" value="2000-09-09"></Property><Property xsi:type="StringPropertyType" name="pubedition" value=""></Property><Property xsi:type="StringPropertyType" name="pubpage" value=""></Property><Property xsi:type="StringPropertyType" name="pubvol" value=""></Property><Property xsi:type="StringPropertyType" name="baselang" value="en"></Property><Property xsi:type="StringPropertyType" name="ipdocid" value="rbbsp:bpz2000090900083"></Property><Property xsi:type="StringPropertyType" name="linkageno" value=""></Property><Property xsi:type="StringPropertyType" name="accessionno" value="paprin0020010816dw9900omx"></Property><Property xsi:type="IntegerPropertyType" name="wordcount" value="658"></Property><Property xsi:type="IntegerPropertyType" name="charcount" value="3337"></Property><Property xsi:type="StringPropertyType" name="doctype" value="article"></Property><Property xsi:type="DatePropertyType" name="loaddate" value="2001-08-16"></Property><Property xsi:type="TimePropertyType" name="loadtime" value="09:03:41Z"></Property><Property xsi:type="DatePropertyType" name="moddate" value="2014-09-05"></Property><Property xsi:type="TimePropertyType" name="modtime" value="07:17:17Z"></Property><Property xsi:type="StringPropertyType" name="origsource" value="rbb:paprin"></Property><Property xsi:type="StringPropertyType" name="revisionno" value="1"></Property><Property xsi:type="StringPropertyType" name="allowtranslation" value="Y"></Property><Property xsi:type="TimePropertyType" name="besttime" value="07:17:17.944Z"></Property><Property xsi:type="DatePropertyType" name="bestdate" value="2000-09-09"></Property><Property xsi:type="StringPropertyType" name="editor" value="bickela"></Property></PropertySet><PropertySet group="pubdata"><Property xsi:type="StringPropertyType" name="attribcode" value="PAPRIN2"></Property><Property xsi:type="StringPropertyType" name="ipid" value="AAP"></Property><Property xsi:type="StringPropertyType" name="logoimage" value="paprinLogo.gif"></Property><Property xsi:type="StringPropertyType" name="logosrc" value="http://logos.factiva.com"></Property><Property xsi:type="StringPropertyType" name="publishern" value="Pakistan Press International Information Services"></Property><Property xsi:type="StringPropertyType" name="srccode" value="PAPRIN"></Property><Property xsi:type="StringPropertyType" name="srcname" value="Pakistan Press International Information Services"></Property><Property xsi:type="StringPropertyType" name="srcprimarytype" value="NWSWR"></Property><Property xsi:type="StringPropertyType" name="srcrightstype" value="INDEM"></Property><Property xsi:type="DatePropertyType" name="firstdate" value="1999-11-02"></Property><Property xsi:type="CodeListPropertyType" name="regionoforigin" value="ASIA PAKIS SASIAZ "></Property><Property xsi:type="StringPropertyType" name="srcsecondarytype" value="SGT1 SGT16 SGT5 "></Property></PropertySet><PropertySet group="docfeatures"><Property xsi:type="FeatureListPropertyType" name="signaturefeatures"><FeatureList><Feature><Name>rearer</Name><Instance>rearers</Instance><Type>keyword</Type><Weight>0.44659423</Weight></Feature><Feature><Name>sericultur</Name><Instance>Sericulture</Instance><Type>keyword</Type><Weight>0.35102997</Weight></Feature><Feature><Name>silkworm</Name><Instance>silkworm</Instance><Type>keyword</Type><Weight>0.25847375</Weight></Feature><Feature><Name>kilogram</Name><Instance>Kilograms</Instance><Type>keyword</Type><Weight>0.22858951</Weight></Feature><Feature><Name>csb</Name><Instance>CSB</Instance><Type>keyword</Type><Weight>0.22465918</Weight></Feature><Feature><Name>cocoon</Name><Instance>Cocoon</Instance><Type>keyword</Type><Weight>0.20487892</Weight></Feature><Feature><Name>seed</Name><Instance>seeds</Instance><Type>keyword</Type><Weight>0.19425089</Weight></Feature><Feature><Name>srinagar</Name><Instance>Srinagar</Instance><Type>keyword</Type><Weight>0.17409024</Weight></Feature><Feature><Name>jammu</Name><Instance>Jammu</Instance><Type>keyword</Type><Weight>0.15710637</Weight></Feature><Feature><Name>silk</Name><Instance>Silk</Instance><Type>keyword</Type><Weight>0.15562311</Weight></Feature><Feature><Name>charkha</Name><Instance>Charkhas</Instance><Type>keyword</Type><Weight>0.14886474</Weight></Feature><Feature><Name>kashmir</Name><Instance>Kashmir</Instance><Type>keyword</Type><Weight>0.14181923</Weight></Feature><Feature><Name>depart</Name><Instance>Department</Instance><Type>keyword</Type><Weight>0.11159955</Weight></Feature><Feature><Name>centr</Name><Instance>Centres</Instance><Type>keyword</Type><Weight>0.11093820</Weight></Feature><Feature><Name>popularis</Name><Instance>popularise</Instance><Type>keyword</Type><Weight>0.10243946</Weight></Feature><Feature><Name>state</Name><Instance>State</Instance><Type>keyword</Type><Weight>0.09927942</Weight></Feature><Feature><Name>mulberri</Name><Instance>mulberry</Instance><Type>keyword</Type><Weight>0.09853097</Weight></Feature><Feature><Name>rear</Name><Instance>rearing</Instance><Type>keyword</Type><Weight>0.08892201</Weight></Feature><Feature><Name>rupe</Name><Instance>rupees</Instance><Type>keyword</Type><Weight>0.08765591</Weight></Feature><Feature><Name>incub</Name><Instance>incubation</Instance><Type>keyword</Type><Weight>0.07992770</Weight></Feature></FeatureList></Property><Property xsi:type="FeatureListPropertyType" name="thematicfeatures"><FeatureList><Feature><Name>quality seed</Name><Instance>quality seeds</Instance><Type>keyphrase</Type><Weight>0.05599832</Weight></Feature><Feature><Name>disease management</Name><Instance>disease management</Instance><Type>keyphrase</Type><Weight>0.04067819</Weight></Feature><Feature><Name>cocoon production</Name><Instance>cocoon production</Instance><Type>keyphrase</Type><Weight>0.04781212</Weight></Feature><Feature><Name>rural economic activity</Name><Instance>rural economic activity</Instance><Type>keyphrase</Type><Weight>0.02266533</Weight></Feature></FeatureList></Property></PropertySet><PropertySet group="replyitem">
+<Property name="truncxs" value="28"  xsi:type="StringPropertyType"></Property>
+<Property name="snippet" xsi:type="SnippetPropertyType"><Snippet><Para>Srinagar September 07 (PPI)The Jammu Kashmir State has achieved 56 per cent increase in productivity of silkworm seeds during last four years. Against 42 Kilograms in 1996, the productivity per ounce of silkworm seeds, has increased to 65 ...</Para></Snippet></Property></PropertySet>
+</Properties><Inventory><Entity cat="co" itemID="1"><Instances><Instance instID="1"><PropertySet><Property xsi:type="StringPropertyType" name="extractedtext" value="Sericulture Development Department"></Property><Property xsi:type="StringPropertyType" name="origin" value="ThingFinder 4.3"></Property></PropertySet></Instance></Instances><Intrinsic><PropertySet group="externalref"><Property xsi:type="FootprintRefPropertyType" name="ref" value="15068984"></Property><Property xsi:type="StringPropertyType" name="origin" value="FootprintMatcher DB 1.1.7"></Property><Property xsi:type="IntegerPropertyType" name="confidence" value="93"></Property><Property xsi:type="StringPropertyType" name="confidencerange" value="high"></Property><Property xsi:type="IntegerPropertyType" name="relevance" value="11"></Property><Property xsi:type="StringPropertyType" name="relevancerange" value="verylow"></Property><Property xsi:type="StringPropertyType" name="refname" value="Sericulture Development Department"></Property></PropertySet><PropertySet group="commonprop"><Property xsi:type="StringPropertyType" name="subcat" value="government"></Property></PropertySet><PropertySet group="specprop"><Property xsi:type="StringPropertyType" name="orgname" value="Sericulture Development Department"></Property></PropertySet></Intrinsic></Entity><Entity cat="co" itemID="2"><Instances><Instance instID="2"><PropertySet><Property xsi:type="StringPropertyType" name="extractedtext" value="Department on Government"></Property><Property xsi:type="StringPropertyType" name="origin" value="ThingFinder 4.3"></Property></PropertySet></Instance></Instances><Intrinsic><PropertySet group="externalref"><Property xsi:type="FootprintRefPropertyType" name="ref" value="21493333"></Property><Property xsi:type="StringPropertyType" name="origin" value="FootprintMatcher DB 1.1.7"></Property><Property xsi:type="IntegerPropertyType" name="confidence" value="99"></Property><Property xsi:type="StringPropertyType" name="confidencerange" value="high"></Property><Property xsi:type="IntegerPropertyType" name="relevance" value="1"></Property><Property xsi:type="StringPropertyType" name="relevancerange" value="verylow"></Property><Property xsi:type="StringPropertyType" name="refname" value="Department on Government"></Property></PropertySet><PropertySet group="commonprop"><Property xsi:type="StringPropertyType" name="subcat" value="government"></Property></PropertySet><PropertySet group="specprop"><Property xsi:type="StringPropertyType" name="orgname" value="Department on Government"></Property></PropertySet></Intrinsic></Entity><Entity cat="co" itemID="3"><Instances><Instance instID="3"><PropertySet><Property xsi:type="StringPropertyType" name="extractedtext" value="Central Silk Board"></Property><Property xsi:type="StringPropertyType" name="origin" value="ThingFinder 4.3"></Property></PropertySet></Instance></Instances><Intrinsic><PropertySet group="externalref"><Property xsi:type="FootprintRefPropertyType" name="ref" value="1585088"></Property><Property xsi:type="StringPropertyType" name="subcat" value="com"></Property><Property xsi:type="StringPropertyType" name="origin" value="FootprintMatcher DB 1.1.7"></Property><Property xsi:type="IntegerPropertyType" name="confidence" value="91"></Property><Property xsi:type="StringPropertyType" name="confidencerange" value="high"></Property><Property xsi:type="IntegerPropertyType" name="relevance" value="10"></Property><Property xsi:type="StringPropertyType" name="relevancerange" value="verylow"></Property><Property xsi:type="StringPropertyType" name="refname" value="Central Silk Board"></Property></PropertySet><PropertySet group="commonprop"><Property xsi:type="StringPropertyType" name="subcat" value="government"></Property></PropertySet><PropertySet group="specprop"><Property xsi:type="StringPropertyType" name="orgname" value="Central Silk Board"></Property></PropertySet></Intrinsic></Entity><Entity cat="pe" itemID="4"><Instances><Instance instID="4"><PropertySet><Property xsi:type="StringPropertyType" name="extractedtext" value="Bakshi Nagar"></Property><Property xsi:type="StringPropertyType" name="origin" value="ThingFinder 4.3"></Property></PropertySet></Instance></Instances><Intrinsic><PropertySet group="externalref"><Property xsi:type="FootprintRefPropertyType" name="ref" value="21324346"></Property><Property xsi:type="StringPropertyType" name="origin" value="FootprintMatcher DB 1.1.7"></Property><Property xsi:type="IntegerPropertyType" name="confidence" value="100"></Property><Property xsi:type="StringPropertyType" name="confidencerange" value="high"></Property><Property xsi:type="IntegerPropertyType" name="relevance" value="50"></Property><Property xsi:type="StringPropertyType" name="relevancerange" value="low"></Property><Property xsi:type="StringPropertyType" name="refname" value="Bakshi Nagar"></Property></PropertySet><PropertySet group="specprop"><Property xsi:type="StringPropertyType" name="firstname" value="Bakshi"></Property><Property xsi:type="StringPropertyType" name="lastname" value="Nagar"></Property></PropertySet></Intrinsic></Entity></Inventory></MetadataPT>
+<IndexDoc><Article markup='pp0' lang='en' index='field'><HandL fid='hlp'><Title fid='hl'><Headline fid='hd'><Para lang='en'>kashmir attains target fixed for cocoon production </Para></Headline></Title><LeadPara fid='lp'><Para>srinagar september 07 ppi the jammu kashmir state has achieved 56 per cent increase in productivity of silkworm seeds during last four years against 42 kilograms in 1996 the productivity per ounce of silkworm seeds has increased to 65 kilograms this year </Para><Para>the increase in productivity of silkworm seeds has been much higher in kashmir which registered over 100 per cent increase raising from 15 kilograms to 31 kilograms in four years </Para></LeadPara></HandL><TailParas fid='td'><Para>the increase in productivity of silkworm seeds has been made possible with the introduction of quality seeds modern rearing techniques and disease management with this the cocoon production in the state this year is estimated to touch 900 metric tons as against 650 metric tons in 1995 96 </Para><Para>sericulture is one of the most rural economic activity of the state which generates half million mandays of employment annually on an average 27000 families are engaged in this trade generating an income of 62 million rupees crores annually as a part time activity </Para><Para>with a view to boost the sericulture activity in the state and make available raw material to the rearers the sericulture development department planted 6 107 million plants during the last four years of this 70 per cent plantation was done by the rearers and 30 per cent by the department on government land </Para><Para>the department envisages to raise improved mulberry varieties for sub tropical and temperate areas over an area of 72 acres during the 9th five year plan </Para><Para>the central silk board csb supplied 12000 saplings of improved varieties during last year for its further propagation and also it has approved establishment of two growth centres one each at srinagar and jammu at a cost of 5 6 million rupees the funds for the purpose would be borne by the board </Para><Para>these growth centres are being established at silk factories at rajbagh srinagar and bakshi nagar in jammu the establishment of these centres for which the machinery has been procured would help in modernisation of filatures in the state </Para><Para>in addition 100 kilogram common facility centre with csb assistance is also in the final stages of installation during the last four years 2928 incubation centres were established in the state besides organising 90 cocoon auction markets from 1997 98 to date as against only 9 in 1996 97 </Para><Para>similarly 1 34 047 ozs of silk worm seeds was distributed among the rearers while 4 08 million kilogram cocoon crop was harvested during this period in the state the department has 174 nurseries spread over 384 hectares 2 basic farms 10 basic seed stations and 5 grainages in addition 2 district level schemes namely incubation cum chawki rearing centres and improvement of mulberry wealth are under implementation in the state </Para><Para>to acquaint the rearers and farmers with the latest technologies in various aspects of sericulture the extension wing of the department and the research institutions in the state and other arts of the country imparted training to 755 rearers farmers and 224 in service staff during 1999 2000 to popularise the silk rearing in a big way kissan melas were organised at srinagar pampore and pulwama in kashmir valley and at ramkote mandli banihal and sundarbani in jammu division seminars and exhibitions were also organised at different places in and outside the state to identify the problems relating to sericulture </Para><Para>to boost reeling activities in backward areas a scheme has been formulated and submitted csb for funding the csb has also approved a scheme for providing roofing material to the tune of 5000 rupees per rearer the cost of which would be equally shared by the state and the board </Para><Para>for installation of cottage basin units the department is providing 40000 as subsidy on machinery cost per unit seven such units are being established during this year for popularisation of charkhas the department also provides 75 subsidy on purchase of improved charkhas to the rural women </Para></TailParas><Byline index='field' fid='by'></Byline><Credit index='field' fid='cr'></Credit><Contact index='field' fid='ct'></Contact><Notes index='field' fid='rf'></Notes><Art index='field' fid='art'></Art></Article></IndexDoc>
+<ArchiveDoc xsi:type='ArticleArchiveDocType'><Article markup='pp0' lang='en' index='field'><HandL fid='hlp'><Title fid='hl'><Headline fid='hd'><Para lang='en'>Kashmir Attains Target Fixed For Cocoon Production.</Para></Headline></Title><LeadPara fid='lp'><Para>Srinagar September 07 (PPI)The Jammu Kashmir State has achieved 56 per cent increase in productivity of silkworm seeds during last four years. Against 42 Kilograms in 1996, the productivity per ounce of silkworm seeds, has increased to 65 Kilograms this year.</Para><Para>The increase in productivity of silkworm seeds has been much higher in Kashmir, which registered over 100 per cent increase, raising from 15 Kilograms to 31 Kilograms in four years.</Para></LeadPara></HandL><TailParas fid='td'><Para>The increase in productivity of silkworm seeds has been made possible with the introduction of quality seeds, modern rearing techniques and disease management. With this the cocoon production in the State this year is estimated to touch 900 Metric tons as against 650 metric tons in 1995-96.</Para><Para>Sericulture is one of the most rural economic activity of the State, which generates half million mandays of employment annually on an average 27000 families are engaged in this trade generating an income of 62 million rupees crores annually as a part time activity.</Para><Para>With a view to boost the Sericulture activity in the State and make available raw material to the rearers, the Sericulture Development Department planted 6.107 million plants during the last four years. Of this, 70 per cent plantation was done by the rearers and 30 per cent by the Department on Government land.</Para><Para>The department envisages to raise improved mulberry varieties for sub-tropical and temperate areas over an area of 72 acres during the 9th five year plan.</Para><Para>The Central Silk Board (CSB) supplied 12000 saplings of improved varieties during last year for its further propagation and also it has approved establishment of two growth Centres one each at Srinagar and Jammu at a cost of 5.6 million rupees. The funds for the purpose would be borne by the Board.</Para><Para>These growth Centres are being established at Silk Factories at Rajbagh, Srinagar and Bakshi Nagar in Jammu. The establishment of these Centres, for which the machinery has been procured, would help in modernisation of filatures in the State.</Para><Para>In addition, 100 Kilogram common facility centre with CSB assistance is also in the final stages of installation. During the last four years 2928 incubation centres were established in the State besides, organising 90 cocoon auction markets from 1997-98 to date as against only 9 in 1996-97.</Para><Para>Similarly, 1,34,047 Ozs of silk worm seeds was distributed among the rearers while 4.08 million kilogram cocoon crop was harvested during this period in the State. The department has 174 nurseries spread over 384 hectares, 2 basic farms, 10 basic seed stations and 5 grainages. In addition 2 district level schemes namely incubation-cum-chawki rearing centres and improvement of mulberry wealth are under implementation in the State.</Para><Para>To acquaint the rearers and farmers with the latest technologies in various aspects of Sericulture, the extension wing of the Department and the research institutions in the State and other arts of the country imparted training to 755 rearers/farmers and 224 in service staff during 1999-2000. To popularise the silk rearing in a big way Kissan Melas were organised at Srinagar, Pampore and Pulwama in Kashmir Valley and at Ramkote, Mandli, Banihal and Sundarbani in Jammu division. Seminars and exhibitions were also organised at different places in and outside the state to identify the problems relating to sericulture.</Para><Para>To boost reeling activities in backward areas a scheme has been formulated and submitted CSB for funding. The CSB has also approved a scheme for providing roofing material to the tune of 5000 rupees per rearer, the cost of which would be equally shared by the State and the Board.</Para><Para>For installation of cottage basin units, the department is providing 40000 as subsidy on machinery cost per unit. Seven such units are being established during this year. For popularisation of Charkhas the department also provides 75% subsidy on purchase of improved charkhas to the rural women. </Para></TailParas><Byline index='field' fid='by'></Byline><Credit index='field' fid='cr'></Credit><Contact index='field' fid='ct'></Contact><Notes index='field' fid='rf'></Notes><Art index='field' fid='art'></Art><Copyright index='field' fid='cy'>Copyright © 2000. Pakistan Press International Information Services   </Copyright></Article></ArchiveDoc>
+<InvertText>
+<Dict>
+047 2637, 3, 395
+07 189, 2, 10
+08 2706, 2, 408
+1 2632, 1, 393
+10 2859, 2, 433
+100 544, 3, 66, 2330, 3, 345
+107 1414, 3, 197
+12000 1788, 5, 258
+15 580, 2, 72
+174 2804, 3, 424
+1995 958, 4, 126
+1996 337, 4, 35, 2600, 4, 390
+1997 2563, 4, 381
+1999 3350, 4, 509
+2 2844, 1, 430, 2911, 1, 442
+2000 3355, 4, 510
+224 3322, 3, 504
+27000 1122, 5, 151
+2928 2458, 4, 366
+30 1521, 2, 217
+31 596, 2, 75
+34 2634, 2, 394
+384 2830, 3, 428
+4 2704, 1, 407
+40000 4064, 5, 623
+42 321, 2, 32
+5 1975, 1, 290, 2886, 1, 438
+5000 3889, 4, 595
+56 234, 2, 18
+6 1412, 1, 196, 1977, 1, 291
+62 1187, 2, 162
+65 406, 2, 46
+650 939, 3, 122
+70 1470, 2, 207
+72 1698, 2, 244
+75 4226, 2, 648
+755 3298, 3, 500
+9 2595, 1, 388
+90 2532, 2, 376
+900 912, 3, 117
+96 963, 2, 127
+97 2605, 2, 391
+98 2568, 2, 382
+9th 1718, 3, 248
+a 1224, 1, 168, 1263, 1, 173, 1965, 1, 287, 3395, 1, 517, 3748, 1, 570, 3834, 1, 585
+achieved 225, 8, 17
+acquaint 3070, 8, 464
+acres 1701, 5, 245
+activities 3719, 10, 566
+activity 1025, 8, 136, 1236, 8, 171, 1295, 8, 179
+addition 2320, 8, 344, 2902, 8, 441
+against 313, 7, 31, 931, 7, 121, 2582, 7, 386
+also 1874, 4, 271, 2389, 4, 354, 3580, 4, 546, 3820, 4, 583, 4212, 4, 646
+among 2680, 5, 403
+an 1111, 2, 149, 1174, 2, 159, 1687, 2, 241
+and 811, 3, 100, 1317, 3, 183, 1517, 3, 216, 1662, 3, 237, 1870, 3, 270, 1952, 3, 284, 2144, 3, 317, 2882, 3, 437, 2981, 3, 452, 3091, 3, 467, 3204, 3, 484, 3247, 3, 491, 3318, 3, 503, 3454, 3, 527, 3484, 3, 532, 3516, 3, 537, 3559, 3, 543, 3618, 3, 552, 3777, 3, 575, 3968, 3, 610
+annually 1099, 8, 147, 1212, 8, 166
+approved 1886, 8, 274, 3825, 8, 584
+are 1137, 3, 153, 2083, 3, 308, 3016, 3, 457, 4126, 3, 634
+area 1690, 4, 242
+areas 1676, 5, 239, 3742, 5, 569
+arts 3257, 4, 493
+as 928, 2, 120, 1221, 2, 167, 2579, 2, 385, 4070, 2, 624
+aspects 3143, 7, 475
+assistance 2375, 10, 352
+at 1940, 2, 282, 1962, 2, 286, 2105, 2, 311, 2123, 2, 314, 3433, 2, 524, 3488, 2, 533, 3595, 2, 548
+attains 76, 7, 2
+auction 2542, 7, 378
+available 1326, 9, 185
+average 1114, 7, 150
+backward 3733, 8, 568
+bakshi 2148, 6, 318
+banihal 3508, 7, 536
+basic 2846, 5, 431, 2862, 5, 434
+basin 4023, 5, 617
+be 2027, 2, 300, 3937, 2, 604
+been 493, 4, 58, 726, 4, 88, 2235, 4, 332, 3761, 4, 573
+being 2087, 5, 309, 4130, 5, 635
+besides 2512, 7, 374
+big 3397, 3, 518
+board 1767, 5, 255, 2043, 5, 304, 3976, 5, 612
+boost 1273, 5, 176, 3705, 5, 564
+borne 2030, 5, 301
+by 1502, 2, 213, 1533, 2, 220, 2036, 2, 302, 3955, 2, 607
+cent 241, 4, 20, 552, 4, 68, 1477, 4, 209, 1528, 4, 219
+central 1754, 7, 253
+centre 2359, 6, 349
+centres 1923, 7, 279, 2075, 7, 307, 2198, 7, 326, 2474, 7, 368, 2973, 7, 451
+charkhas 4188, 8, 643, 4262, 8, 654
+chawki 2958, 6, 449
+cocoon 101, 6, 6, 849, 6, 106, 2535, 6, 377, 2726, 6, 411
+common 2343, 6, 347
+cost 1967, 4, 288, 3917, 4, 600, 4094, 4, 628
+cottage 4015, 7, 616
+country 3269, 7, 496
+crop 2733, 4, 412
+crores 1205, 6, 165
+csb 1774, 3, 256, 2371, 3, 351, 3791, 3, 577, 3812, 3, 581
+cum 2954, 3, 448
+date 2574, 4, 384
+department 1393, 10, 194, 1540, 10, 222, 1587, 10, 227, 2789, 10, 422, 3193, 10, 483, 4040, 10, 620, 4201, 10, 645
+development 1381, 11, 193
+different 3598, 9, 549
+disease 815, 7, 101
+distributed 2668, 11, 402
+district 2913, 8, 443
+division 3540, 8, 541
+done 1497, 4, 212
+during 289, 6, 27, 1433, 6, 200, 1707, 6, 246, 1825, 6, 263, 2431, 6, 361, 2752, 6, 415, 3343, 6, 508, 4148, 6, 637
+each 1935, 4, 281
+economic 1016, 8, 135
+employment 1088, 10, 146
+engaged 1141, 7, 154
+envisages 1598, 9, 228
+equally 3940, 7, 605
+established 2093, 11, 310, 2487, 11, 370, 4136, 11, 636
+establishment 1895, 13, 275, 2175, 13, 323
+estimated 893, 9, 114
+exhibitions 3563, 11, 544
+extension 3171, 9, 479
+facility 2350, 8, 348
+factories 2113, 9, 313
+families 1128, 8, 152
+farmers 3095, 7, 468, 3310, 7, 502
+farms 2852, 5, 432
+filatures 2281, 9, 339
+final 2401, 5, 357
+five 1722, 4, 249
+fixed 91, 5, 4
+for 97, 3, 5, 1645, 3, 234, 1842, 3, 266, 2005, 3, 296, 2207, 3, 327, 3795, 3, 578, 3843, 3, 587, 3995, 3, 613, 4166, 3, 640
+formulated 3766, 10, 574
+four 301, 4, 29, 612, 4, 78, 1449, 4, 203, 2447, 4, 364
+from 575, 4, 71, 2558, 4, 380
+funding 3799, 7, 579
+funds 1999, 5, 295
+further 1850, 7, 268
+generates 1054, 9, 141
+generating 1163, 10, 158
+government 1554, 10, 224
+grainages 2888, 9, 439
+growth 1916, 6, 278, 2068, 6, 306
+half 1064, 4, 142
+harvested 2742, 9, 414
+has 221, 3, 16, 389, 3, 43, 489, 3, 57, 722, 3, 87, 1882, 3, 273, 2231, 3, 331, 2800, 3, 423, 3757, 3, 572, 3816, 3, 582
+hectares 2834, 8, 429
+help 2256, 4, 335
+higher 503, 6, 60
+identify 3643, 8, 557
+imparted 3277, 8, 497
+implementation 3026, 14, 459
+improved 1617, 8, 231, 1806, 8, 261, 4253, 8, 653
+improvement 2985, 11, 453
+in 255, 2, 22, 334, 2, 34, 455, 2, 52, 510, 2, 61, 609, 2, 77, 688, 2, 82, 867, 2, 108, 955, 2, 125, 1149, 2, 155, 1304, 2, 180, 2161, 2, 320, 2261, 2, 336, 2291, 2, 340, 2317, 2, 343, 2394, 2, 355, 2499, 2, 371, 2597, 2, 389, 2771, 2, 418, 2899, 2, 440, 3041, 2, 460, 3132, 2, 473, 3234, 2, 488, 3326, 2, 505, 3392, 2, 516, 3466, 2, 529, 3531, 2, 539, 3615, 2, 551, 3730, 2, 567
+income 1177, 6, 160
+increase 246, 8, 21, 446, 8, 51, 557, 8, 69, 679, 8, 81
+increased 393, 9, 44
+incubation 2463, 10, 367, 2943, 10, 447
+installation 2417, 12, 360, 3999, 12, 614
+institutions 3221, 12, 487
+introduction 754, 12, 93
+is 890, 2, 113, 991, 2, 129, 2386, 2, 353, 4051, 2, 621
+it 1879, 2, 272
+its 1846, 3, 267
+jammu 201, 5, 13, 1956, 5, 285, 2164, 5, 321, 3534, 5, 540
+kashmir 68, 7, 1, 207, 7, 14, 513, 7, 62, 3469, 7, 530
+kilogram 2334, 8, 346, 2717, 8, 410
+kilograms 324, 9, 33, 409, 9, 47, 583, 9, 73, 599, 9, 76
+kissan 3405, 6, 520
+land 1565, 4, 225
+last 296, 4, 28, 1444, 4, 202, 1832, 4, 264, 2442, 4, 363
+latest 3112, 6, 471
+level 2922, 5, 444
+machinery 2221, 9, 330, 4084, 9, 627
+made 731, 4, 89
+make 1321, 4, 184
+management 823, 10, 102
+mandays 1077, 7, 144
+mandli 3500, 6, 535
+markets 2550, 7, 379
+material 1340, 8, 187, 3865, 8, 590
+melas 3412, 5, 521
+metric 916, 6, 118, 943, 6, 123
+million 1069, 7, 143, 1190, 7, 163, 1418, 7, 198, 1979, 7, 292, 2709, 7, 409
+modern 785, 6, 97
+modernisation 2264, 13, 337
+most 1005, 4, 133
+much 498, 4, 59
+mulberry 1626, 8, 232, 3000, 8, 455
+nagar 2155, 5, 319
+namely 2936, 6, 446
+nurseries 2808, 9, 425
+of 271, 2, 24, 370, 2, 40, 471, 2, 54, 704, 2, 84, 767, 2, 94, 998, 2, 131, 1034, 2, 137, 1085, 2, 145, 1184, 2, 161, 1461, 2, 205, 1695, 2, 243, 1803, 2, 260, 1909, 2, 276, 1972, 2, 289, 2189, 2, 324, 2278, 2, 338, 2414, 2, 359, 2645, 2, 397, 2997, 2, 454, 3151, 2, 476, 3186, 2, 481, 3262, 2, 494, 3886, 2, 594, 3922, 2, 601, 4012, 2, 615, 4185, 2, 642, 4250, 2, 652
+on 1108, 2, 148, 1551, 2, 223, 4081, 2, 626, 4238, 2, 650
+one 994, 3, 130, 1931, 3, 280
+only 2590, 4, 387
+organised 3423, 9, 523, 3585, 9, 547
+organising 2521, 10, 375
+other 3251, 5, 492
+ounce 364, 5, 39
+outside 3622, 7, 553
+over 539, 4, 65, 1682, 4, 240, 2825, 4, 427
+ozs 2641, 3, 396
+pampore 3446, 7, 526
+part 1226, 4, 169
+per 237, 3, 19, 360, 3, 38, 548, 3, 67, 1473, 3, 208, 1524, 3, 218, 3901, 3, 597, 4099, 3, 629
+period 2764, 6, 417
+places 3608, 6, 550
+plan 1732, 4, 251
+plantation 1482, 10, 210
+planted 1404, 7, 195
+plants 1426, 6, 199
+popularisation 4170, 14, 641
+popularise 3364, 10, 512
+possible 736, 8, 90
+ppi 193, 3, 11
+problems 3656, 8, 559
+procured 2240, 8, 333
+production 108, 10, 7, 856, 10, 107
+productivity 258, 12, 23, 347, 12, 37, 458, 12, 53, 691, 12, 83
+propagation 1858, 11, 269
+provides 4217, 8, 647
+providing 3847, 9, 588, 4054, 9, 622
+pulwama 3458, 7, 528
+purchase 4241, 8, 651
+purpose 2013, 7, 298
+quality 770, 7, 95
+raise 1611, 5, 230
+raising 567, 7, 70
+rajbagh 2126, 7, 315
+ramkote 3491, 7, 534
+raw 1336, 3, 186
+rearer 3905, 6, 598
+rearers 1356, 7, 190, 1509, 7, 215, 2690, 7, 405, 3083, 7, 466, 3302, 7, 501
+rearing 792, 7, 98, 2965, 7, 450, 3384, 7, 515
+reeling 3711, 7, 565
+registered 528, 10, 64
+relating 3665, 8, 560
+research 3212, 8, 486
+roofing 3857, 7, 589
+rupees 1198, 6, 164, 1987, 6, 293, 3894, 6, 596
+rural 1010, 5, 134, 4278, 5, 657
+saplings 1794, 8, 259
+scheme 3750, 6, 571, 3836, 6, 586
+schemes 2928, 7, 445
+seed 2868, 4, 435
+seeds 283, 5, 26, 382, 5, 42, 483, 5, 56, 716, 5, 86, 778, 5, 96, 2658, 5, 400
+seminars 3550, 8, 542
+september 179, 9, 9
+sericulture 979, 11, 128, 1283, 11, 178, 1369, 11, 192, 3154, 11, 477, 3677, 11, 562
+service 3329, 7, 506
+seven 4109, 5, 631
+shared 3948, 6, 606
+silk 1762, 4, 254, 2108, 4, 312, 2648, 4, 398, 3379, 4, 514
+silkworm 274, 8, 25, 373, 8, 41, 474, 8, 55, 707, 8, 85
+similarly 2621, 9, 392
+spread 2818, 6, 426
+srinagar 170, 8, 8, 1943, 8, 283, 2135, 8, 316, 3436, 8, 525
+staff 3337, 5, 507
+stages 2407, 6, 358
+state 215, 5, 15, 874, 5, 110, 1041, 5, 139, 1311, 5, 182, 2298, 5, 342, 2506, 5, 373, 2778, 5, 420, 3048, 5, 462, 3241, 5, 490, 3634, 5, 555, 3962, 5, 609
+stations 2873, 8, 436
+sub 1649, 3, 235
+submitted 3781, 9, 576
+subsidy 4073, 7, 625, 4230, 7, 649
+such 4115, 4, 632
+sundarbani 3520, 10, 538
+supplied 1779, 8, 257
+target 84, 6, 3
+techniques 800, 10, 99
+technologies 3119, 12, 472
+temperate 1666, 9, 238
+the 197, 3, 12, 343, 3, 36, 442, 3, 50, 675, 3, 80, 750, 3, 92, 845, 3, 105, 870, 3, 109, 1001, 3, 132, 1037, 3, 138, 1279, 3, 177, 1307, 3, 181, 1352, 3, 189, 1365, 3, 191, 1440, 3, 201, 1505, 3, 214, 1536, 3, 221, 1583, 3, 226, 1714, 3, 247, 1750, 3, 252, 1995, 3, 294, 2009, 3, 297, 2039, 3, 303, 2171, 3, 322, 2217, 3, 329, 2294, 3, 341, 2397, 3, 356, 2438, 3, 362, 2502, 3, 372, 2686, 3, 404, 2774, 3, 419, 2785, 3, 421, 3044, 3, 461, 3079, 3, 465, 3108, 3, 470, 3167, 3, 478, 3189, 3, 482, 3208, 3, 485, 3237, 3, 489, 3265, 3, 495, 3375, 3, 513, 3630, 3, 554, 3652, 3, 558, 3808, 3, 580, 3877, 3, 592, 3913, 3, 599, 3958, 3, 608, 3972, 3, 611, 4036, 3, 619, 4197, 3, 644, 4274, 3, 656
+these 2062, 5, 305, 2192, 5, 325
+this 419, 4, 48, 840, 4, 104, 880, 4, 111, 1152, 4, 156, 1464, 4, 206, 2759, 4, 416, 4155, 4, 638
+time 1231, 4, 170
+to 403, 2, 45, 593, 2, 74, 903, 2, 115, 1270, 2, 175, 1349, 2, 188, 1608, 2, 229, 2571, 2, 383, 3067, 2, 463, 3295, 2, 499, 3361, 2, 511, 3640, 2, 556, 3674, 2, 561, 3702, 2, 563, 3874, 2, 591, 4271, 2, 655
+tons 923, 4, 119, 950, 4, 124
+touch 906, 5, 116
+trade 1157, 5, 157
+training 3286, 8, 498
+tropical 1653, 8, 236
+tune 3881, 4, 593
+two 1912, 3, 277
+under 3020, 5, 458
+unit 4103, 4, 630
+units 4029, 5, 618, 4120, 5, 633
+valley 3477, 6, 531
+varieties 1635, 9, 233, 1815, 9, 262
+various 3135, 7, 474
+view 1265, 4, 174
+was 1493, 3, 211, 2664, 3, 401, 2738, 3, 413
+way 3401, 3, 519
+wealth 3009, 6, 456
+were 2482, 4, 369, 3418, 4, 522, 3575, 4, 545
+which 522, 5, 63, 1048, 5, 140, 2211, 5, 328, 3925, 5, 602
+while 2698, 5, 406
+wing 3181, 4, 480
+with 745, 4, 91, 835, 4, 103, 1258, 4, 172, 2366, 4, 350, 3103, 4, 469
+women 4284, 5, 658
+worm 2653, 4, 399
+would 2021, 5, 299, 2250, 5, 334, 3931, 5, 603
+year 424, 4, 49, 885, 4, 112, 1727, 4, 250, 1837, 4, 265, 4160, 4, 639
+years 306, 5, 30, 617, 5, 79, 1454, 5, 204, 2452, 5, 365</Dict>
+<Fields>
+$p 68, 119, 170, 429, 442, 623, 675, 966, 979, 1245, 1258, 1570, 1583, 1737, 1750, 2049, 2062, 2304, 2317, 2608, 2621, 3054, 3067, 3689, 3702, 3982, 3995, 4291
+art 4499, 4499
+by 4341, 4341
+cr 4381, 4381
+ct 4422, 4422
+hd 52, 126
+lp 164, 630
+rf 4462, 4462
+td 669, 4298</Fields>
+</InvertText>
+<AdocTOC adoctype="article"><Item type="arttext" size="4735" ref="distdoc:archive/ArchiveDoc::Article"></Item>
+<Item type="invtext" size="11446" ref="distdoc:archive/InvertText"></Item>
+</AdocTOC>
+</DistDoc>
+</DistList>
