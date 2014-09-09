@@ -20,5 +20,6 @@ final class Demo
 		Demo demo = new Demo(15);
 		//demo.z=20;
 		System.out.println(demo.x +" "+demo.z);
+		System.out.println(demo.x +" "+demo.z);
 	}
 }
